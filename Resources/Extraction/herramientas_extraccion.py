@@ -2,7 +2,11 @@ from decimal import	Decimal
 from decimal import	getcontext
 
 DIRECTORIO_RAIZ=r"G:\My Drive\Courses\CPIC\PowerBI Avanzado\Proyecto"
+URL_RAIZ="https://www.ncei.noaa.gov/data/cmorph-high-resolution-global-precipitation-estimates/access/daily/0.25deg/"
+URL_ULTIMO_AÑO_MES=(2022,5)
+EXTENSION="nc"
 PRECISION=10
+
 
 def convierte_latitud_60_a_90(latitud_60_grados:float)->Decimal:
     return Decimal(latitud_60_grados)*Decimal(1.5)
