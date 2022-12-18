@@ -56,7 +56,7 @@ The data extacted corresponds to points on the terrestrial surface of the follow
  - Mawsynram, Meghalaya State, India (place of control, one of the rainiest in the globe according to ["The top 10 wettest places on earth",
 Escape dot com dot au writers	on March 23, 2021, captured on December 18, 2022](https://www.escape.com.au/escape-travel/the-top-10-wettest-places-on-earth/news-story/993eaffca1d3d5fabc0c9d73bef06b96)) `$lat$  >= 25.3000 AND $lat$<=25.5000 AND $lon$>=91.610 AND $lon$<=91.630`,
  - Arica, Chile (place of control, one of the driest in the globe according to ["The 10 Driest Places on Earth", Katharine Gammon,
- Live Science dot com on July 22, 2011, captured on December 18, 2022](https://www.livescience.com/30627-10-driest-places-on-earth.html)) `$lat$  >= -18.5 AND $lat$<=-18.00 AND $lon$>=-70.40 AND $lon$<=-70.320`.
+ Live Science dot com on July 22, 2011, captured on December 18, 2022](https://www.livescience.com/30627-10-driest-places-on-earth.html) and ["Discover the Driest Place on Earth – 500 Years Without a Single Rain Drop!", Kristen Holder, AZ Animals dot com, July 26, 2022, captured on December 18, 2022](https://a-z-animals.com/blog/discover-the-driest-place-on-earth-500-years-without-a-single-rain-drop/)) `$lat$  >= -18.5 AND $lat$<=-18.00 AND $lon$>=-70.40 AND $lon$<=-70.320`.
  
 To translate from the data source geolocation into the target resolution, these functions were applied to latitude and longitude, with 10 decimals precision:
 ~~~py
