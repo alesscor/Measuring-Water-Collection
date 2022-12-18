@@ -50,9 +50,27 @@ Output:
 
 ## The extraction
 
-The data extacted corresponds to these locations, following a geospacial resolution of -90 to 90 degrees north and -180 to 180 degrees east:
- - Costa Rica (place of interest for being my home country)
- - Banten y Jawa Barat, Indonesina provinces (place of interest for being near antipode to Costa Rica).
- - Emeishan City, Leshan, Sichuan, China (place of control, one of the rainiest in the globe)
- - Jaisalmer, Rajasthan, India (place of control, one of the driest in the globe)
+The data extacted corresponds to points on the terrestrial surface of the following locations, regarding a geospacial resolution of -90 to 90 degrees north and -180 to 180 degrees east:
+ - Costa Rica (place of interest for being my home country) `$lat$  >= 8.041537 AND $lat$<=11.219708 AND $lon$>=-85.949918 AND $lon$<=-82.552560`,
+ - Banten and Jawa Barat, Indonesina provinces (place of interest for being the nearest antipode to Costa Rica) `$lat$  >= -8.15 AND $lat$<=-5.80 AND $lon$>=105.00 AND $lon$<=108.94`,
+ - Emeishan City, Leshan, Sichuan, China (place of control, one of the rainiest in the globe) `$lat$ >=29.431027 AND $lat$<=29.639436 AND $lon$>=103.208350 AND $lon$<=103.527138`,
+ - Jaisalmer, Rajasthan, India (place of control, one of the driest in the globe) `$lat$  >= 26.806514 AND $lat$<=26.979810 AND $lon$>=70.676399 AND $lon$<=70.999946`.
  
+To translate from the data source geolocation to the target one, these functions were applied to latitude and longitude:
+~~~py
+from decimal import	Decimal
+from decimal import	getcontext
+
+def convierte_latitud_60_a_90(latitud_60_grados:float)->Decimal:
+    return Decimal(latitud_60_grados)*Decimal(1.5000)
+
+def convierte_longitud_360_a_180(longitud_360_grados:float)->Decimal:
+    return Decimal(longitud_360_grados) if Decimal(longitud_360_grados) <= Decimal(180.0000) else Decimal(longitud_360_grados)-Decimal(360.0000)        
+
+def main():
+    getcontext().prec=10
+
+if __name__ == "__main__":
+    main()
+
+~~~
