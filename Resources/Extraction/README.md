@@ -1,6 +1,6 @@
 # Extraction tools
 
-The data source contains Climate Data Records, which file format is netCDF4, `.nc` file extension. They are extracted from NOAA's NCEI directory at `https://www.ncei.noaa.gov/data/cmorph-high-resolution-global-precipitation-estimates/access/daily/0.25deg/`.
+The data source contains global daily Climate Data Records, which file format is netCDF4, `.nc` file extension. It can be extracted from NOAA's NCEI directory at https://www.ncei.noaa.gov/data/cmorph-high-resolution-global-precipitation-estimates/access/daily/0.25deg/.
 
 ## Some attributes
 
