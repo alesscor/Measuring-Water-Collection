@@ -1,8 +1,8 @@
 # Extraction tools
 
-The data source contains Climate Data Records, which file format is netCDF4, `.nc` file extension. Here are some attributes:
+The data source contains Climate Data Records, which file format is netCDF4, `.nc` file extension.
 
-## Some content's attributes
+## Some attributes
 
 ### Summary:
 ~~~py
