@@ -58,7 +58,7 @@ Escape dot com dot au writers	on March 23, 2021, captured on December 18, 2022](
  - Arica, Chile (place of control, one of the driest in the globe according to ["The 10 Driest Places on Earth", Katharine Gammon,
  Live Science dot com on July 22, 2011, captured on December 18, 2022](https://www.livescience.com/30627-10-driest-places-on-earth.html)) `$lat$  >= -18.5 AND $lat$<=-18.00 AND $lon$>=-70.40 AND $lon$<=-70.320`.
  
-To translate from the data source geolocation into the target one, these functions were applied to latitude and longitude:
+To translate from the data source geolocation into the target resolution, these functions were applied to latitude and longitude, with 10 decimals precision:
 ~~~py
 from decimal import	Decimal
 from decimal import	getcontext
