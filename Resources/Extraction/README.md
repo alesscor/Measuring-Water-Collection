@@ -53,7 +53,8 @@ Output:
 The data extacted corresponds to points on the terrestrial surface of the following locations, regarding a geospacial resolution of -90 to 90 degrees north and -180 to 180 degrees east:
  - Costa Rica (place of interest for being my home country) `$lat$  >= 8.041537 AND $lat$<=11.219708 AND $lon$>=-85.949918 AND $lon$<=-82.552560`,
  - Banten and Jawa Barat, Indonesina provinces (place of interest for being the nearest antipode to Costa Rica) `$lat$  >= -8.15 AND $lat$<=-5.80 AND $lon$>=105.00 AND $lon$<=108.94`,
- - Mawsynram, Meghalaya State, India (place of control, one of the rainiest in the globe) `$lat$  >= 25.3000 AND $lat$<=25.5000 AND $lon$>=91.610 AND $lon$<=91.630`,
+ - Mawsynram, Meghalaya State, India (place of control, one of the rainiest in the globe according to [The top 10 wettest places on earth,
+Escape dot com dot au writers	on March 23,2021, captured on December 18, 2022](https://www.escape.com.au/escape-travel/the-top-10-wettest-places-on-earth/news-story/993eaffca1d3d5fabc0c9d73bef06b96)) `$lat$  >= 25.3000 AND $lat$<=25.5000 AND $lon$>=91.610 AND $lon$<=91.630`,
  - Jaisalmer, Rajasthan, India (place of control, one of the driest in the globe) `$lat$  >= 26.806514 AND $lat$<=26.979810 AND $lon$>=70.676399 AND $lon$<=70.999946`.
  
 To translate from the data source geolocation into the target one, these functions were applied to latitude and longitude:
