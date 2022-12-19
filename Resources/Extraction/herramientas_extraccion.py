@@ -9,7 +9,7 @@ PRECISION=10
 
 
 def convierte_latitud_60_a_90(latitud_60_grados:float)->Decimal:
-    return Decimal(latitud_60_grados)*Decimal(1.5)
+    return Decimal(latitud_60_grados)*Decimal(1.5000)
 
 def convierte_longitud_360_a_180(longitud_360_grados:float)->Decimal:
     return Decimal(longitud_360_grados) if Decimal(longitud_360_grados) <= Decimal(180.0000) else Decimal(longitud_360_grados)-Decimal(360.0000)        
