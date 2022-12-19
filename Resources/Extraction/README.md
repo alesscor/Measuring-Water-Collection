@@ -81,12 +81,31 @@ if __name__ == "__main__":
 
 The terrestrial surface points of interest must be obtained from the initial squared zones. For this purpose KNIME Analytics Platform Palladian geolocation nodes that interact with GeoNames free service were applied. The nodes applied were:
 - **GeoNames Location Source**: to obtain a session of GeoNames service.
-- **Reverse Location Lookup**: to obtain information of places on the surface in the radio of a point of interest. 
-- **Map Viewer**: to verify what points are selected or left behind by the algorithmia.
-- **Latitude/Longitude to Coordinate**: to transform from latitude and longitude of double type into Palladian coordenates format.
+- **Reverse Location Lookup**: to obtain information of places on the surface that are near a point of interest, inside of a given radio for looking up.
+- **Map Viewer**: to verify what points are selected or left behind by the algorithms, for example if a point resulted with no information because of being too far from the nearest town.
+- **Latitude/Longitude to Coordinate**: to transform from double type latitude and longitude into Palladian's coordenates data type.
 
+The following procedure was executed:
+
+<img src="Nodos y selección puntos en tierra firme.png"
+     alt="The nodes to recover names on the land"
+     style="float: left; margin-right: 10px;" />
+1. Regard a GeoNames service session.
+2. Regard the points that are inside the area of the location of interest.
+3. Obtain the vernacle name of each point from the GeoNames service, using a search radio.
+4. Obtain the points whose information have not being found using the first search radio.
+5. Visualise the points of interst to "hilite" the ones must be found in a second attempt.
+6. Obtain the "hilited" points to search again.
+7. Obtain the vernacle name of each point from the GeoNames service, using a longer search radio.
+8. Concatenate the results.
+9. Mark if the points corresponds to the country of interest.
+10. Filter those points that are in the country of interest.
+11. Obtain the name of the place nearest to each point.
+12. Complete the information of resulting nearest places.
+13. Visualise the obtained points (this node can be used with the output of node [7] to verify points that are left behind).
+14. Provide the output of the points from the surface with their information
 
 # To follow-up
 
-- To explain that there are new nodes with OpenStreetMap that has not been used and may have interesting features in favour of this project.
+- To explain that there are new KNIME nodes integrated to OpenStreetMap services that have not been applied yet that may have interesting features in favour of this project.
 
