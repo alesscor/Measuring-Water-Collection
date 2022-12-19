@@ -85,7 +85,7 @@ The terrestrial surface points of interest must be obtained from the initial squ
 - **Map Viewer**: to verify what points are selected or left behind by the algorithms, for example if a point resulted with no information because of being too far from the nearest town.
 - **Latitude/Longitude to Coordinate**: to transform from double type latitude and longitude into Palladian's coordenates data type.
 
-The following procedure was executed (illustrated in figure 1):
+The following procedure was executed next, the case of Banten and Jawa Barat is shown in figure 1 (equivalent procedure was applied in the case of Costa Rica):
 
 | <img src="Nodos y selección puntos en tierra firme.png" alt="The KNIME nodes to recover names on the land (among further information)" /> |
 |:--:|
