@@ -102,7 +102,7 @@ The following procedure was executed next, the case of Banten and Jawa Barat is 
 5. Visualise the points of interst to "hilite" the ones must be found in a second attempt. Example of input is shown in figure 3, black dots in yellow outline.
 
 
-| <img src=" Selección puntos en tierra firme.png" alt="Example with six missing points due to being far of the nearest point with GeoNames information" /> |
+| <img src=" Selección puntos en tierra firme.png" alt="Example with six missing points due to being far from the nearest place with GeoNames information" /> |
 |:--:|
 | **Fig. 3** *Example of "hiliting" the six missing points in yellow outline* |
 
