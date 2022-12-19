@@ -88,4 +88,5 @@ The terrestrial surface points of interest must be obtained from the initial squ
 
 # To follow-up
 
+- To explain that there are new nodes with OpenStreetMap that has not been used and may have interesting features in favour of this project.
 
