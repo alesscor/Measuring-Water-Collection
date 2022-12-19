@@ -90,8 +90,8 @@ The following procedure was executed:
 <img src="Nodos y selección puntos en tierra firme.png"
      alt="The nodes to recover names on the land"
      style="float: left; margin-right: 10px;" />
-1. Regard a GeoNames service session.
-2. Regard the points that are inside the area of the location of interest.
+1. Regard a GeoNames service session as a input.
+2. Regard the points that are inside the area of the location of interest as input.
 3. Obtain the vernacle name of each point from the GeoNames service, using a search radio.
 4. Obtain the points whose information have not being found using the first search radio.
 5. Visualise the points of interst to "hilite" the ones must be found in a second attempt.
