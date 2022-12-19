@@ -85,25 +85,40 @@ The terrestrial surface points of interest must be obtained from the initial squ
 - **Map Viewer**: to verify what points are selected or left behind by the algorithms, for example if a point resulted with no information because of being too far from the nearest town.
 - **Latitude/Longitude to Coordinate**: to transform from double type latitude and longitude into Palladian's coordenates data type.
 
-The following procedure was executed:
+The following procedure was executed (illustrated in figure 1):
 
-<img src="Nodos y selección puntos en tierra firme.png"
-     alt="The nodes to recover names on the land"
-     style="float: left; margin-right: 10px;" />
-1. Regard a GeoNames service session as a input.
-2. Regard the points that are inside the area of the location of interest as input.
-3. Obtain the vernacle name of each point from the GeoNames service, using a search radio.
+| <img src="Nodos y selección puntos en tierra firme.png" alt="The KNIME nodes to recover names on the land (among further information)" /> |
+|:--:|
+| **Fig. 1** *The KNIME nodes to recover names on the land (among further information)* |
+1. Regard a GeoNames service session as an input.
+2. Regard the points that are inside the area of the location of interest as input (they come already filtered in form of square). 
+3. Obtain the information, including vernacle name, of each point from the GeoNames service, using a search radio. Example of output is shown in figure 2.
+
+| <img src=" Puntos en tierra firme con faltantes.png" alt="Example with six missing points due to being far of the nearest point with GeoNames information" /> |
+|:--:|
+| **Fig. 2** *Example with six missing points due to being far of the nearest point with GeoNames information* |
+
 4. Obtain the points whose information have not being found using the first search radio.
-5. Visualise the points of interst to "hilite" the ones must be found in a second attempt.
+5. Visualise the points of interst to "hilite" the ones must be found in a second attempt. Example of input is shown in figure 3, black dots in yellow outline.
+
+
+| <img src=" Selección puntos en tierra firme.png" alt="Example with six missing points due to being far of the nearest point with GeoNames information" /> |
+|:--:|
+| **Fig. 3** *Example of "hiliting" the six missing points in yellow outline* |
+
+
 6. Obtain the "hilited" points to search again.
 7. Obtain the vernacle name of each point from the GeoNames service, using a longer search radio.
 8. Concatenate the results.
-9. Mark if the points corresponds to the country of interest.
+9. Automatically mark if the points corresponds to the country of interest.
 10. Filter those points that are in the country of interest.
 11. Obtain the name of the place nearest to each point.
 12. Complete the information of resulting nearest places.
 13. Visualise the obtained points (this node can be used with the output of node [7] to verify points that are left behind).
 14. Provide the output of the points from the surface with their information
+
+
+
 
 # To follow-up
 
