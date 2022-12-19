@@ -76,3 +76,16 @@ if __name__ == "__main__":
     main()
 
 ~~~
+
+### Getting the terrestrial surface of interest
+
+The terrestrial surface points of interest must be obtained from the initial squared zones. For this purpose KNIME Analytics Platform Palladian geolocation nodes that interact with GeoNames free service were applied. The nodes applied were:
+- **GeoNames Location Source**: to obtain a session of GeoNames service.
+- **Reverse Location Lookup**: to obtain information of places on the surface in the radio of a point of interest. 
+- **Map Viewer**: to verify what points are selected or left behind by the algorithmia.
+- **Latitude/Longitude to Coordinate**: to transform from latitude and longitude of double type into Palladian coordenates format.
+
+
+# To follow-up
+
+
