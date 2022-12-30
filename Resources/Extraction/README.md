@@ -122,5 +122,5 @@ The following procedure was executed next, the case of Banten and Jawa Barat is 
 
 # To follow-up
 
+- To explain that I still feel skeptical with the process I followed, the precipitation data for the control coordinates that are assumed among the driest and rainiest places, don't seem like that after the transformation I followed.
 - To explain that there are new KNIME nodes integrated to OpenStreetMap services that have not been applied yet that may have interesting features in favour of this project.
-
