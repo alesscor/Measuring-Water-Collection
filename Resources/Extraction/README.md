@@ -124,3 +124,9 @@ The following procedure was executed next, the case of Banten and Jawa Barat is 
 
 - To explain that I still feel skeptical with the process I followed, the precipitation data for the control coordinates that are assumed among the driest and rainiest places, don't seem like that after the transformation I followed.
 - To explain that there are new KNIME nodes integrated to OpenStreetMap services that have not been applied yet that may have interesting features in favour of this project.
+- Review data of latitude 9°55'13.0"N and -84°16'22.0"E (Mora, San José).
+# References to take advantage of
+- [Estaciones automáticas](https://www.imn.ac.cr/web/imn/estaciones-automaticas)
+- [Estación Automática de la UCR Santa Cruz, Guanacaste](https://www.imn.ac.cr/especial/estacionStacruz.html)
+- [Estación Automática Universidad de la Paz, Mora, San José](https://www.imn.ac.cr/especial/estacionUPaz.html)
+- [REGIONES Y SUBREGIONES CLIMATICAS DE COSTA RICA (Solano, Villalobos, ¿1996?)](https://www.imn.ac.cr/documents/10179/20909/Regionalizaci%C3%B3n+clim%C3%A1tica+de+Costa+Rica)
