@@ -129,4 +129,5 @@ The following procedure was executed next, the case of Banten and Jawa Barat is 
 - [Estaciones automáticas](https://www.imn.ac.cr/web/imn/estaciones-automaticas)
 - [Estación Automática de la UCR Santa Cruz, Guanacaste](https://www.imn.ac.cr/especial/estacionStacruz.html)
 - [Estación Automática Universidad de la Paz, Mora, San José](https://www.imn.ac.cr/especial/estacionUPaz.html)
+- [IMN Servicios - Resúmenes climáticos](https://www.imn.ac.cr/web/imn/solicitud-de-servicios?p_auth=H3zy8YLy&p_p_id=PortalIMNFormularioServicios_WAR_PortalIMNFormularioServiciosportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-3&p_p_col_count=1&_PortalIMNFormularioServicios_WAR_PortalIMNFormularioServiciosportlet__facesViewIdRender=%2Fviews%2FpagEnvioServicio.xhtml)
 - [REGIONES Y SUBREGIONES CLIMATICAS DE COSTA RICA (Solano, Villalobos, ¿1996?)](https://www.imn.ac.cr/documents/10179/20909/Regionalizaci%C3%B3n+clim%C3%A1tica+de+Costa+Rica)
